@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "npx webpack serve"
+    "start": "npx webpack serve",
+    "build": "npx webpack build"
   },
   "dependencies": {
     "axios": "^0.27.2"
