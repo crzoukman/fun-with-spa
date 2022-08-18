@@ -1,0 +1,13 @@
+.nav {
+  display: flex;
+  gap: 14px;
+}
+
+.nav__link {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.nav__link:hover {
+  text-decoration: underline;
+}

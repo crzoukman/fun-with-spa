@@ -1,0 +1,16 @@
+.test {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.test__wrapper {
+  display: flex;
+  gap: 20px;
+  width: 140px;
+  justify-content: space-between;
+}
+
+.text__btn {
+  width: 60px;
+}

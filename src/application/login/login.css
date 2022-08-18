@@ -1,0 +1,11 @@
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 350px;
+}
+
+.login-form__submit {
+  margin-top: 10px;
+  width: max-content;
+}

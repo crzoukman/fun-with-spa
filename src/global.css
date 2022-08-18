@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 18px 32px;
+}
+
+li {
+  list-style: none;
+}
+
+input {
+  padding: 9px 16px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  outline: none;
+  border-radius: 2px;
+}
+
+input:focus {
+  border: 1px solid blue;
+}
+
+button {
+  background-color: whitesmoke;
+  outline: none;
+  border: none;
+  padding: 4.5px 16px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+button:hover {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
